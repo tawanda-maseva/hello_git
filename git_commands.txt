@@ -15,4 +15,4 @@ git checkout . 					# rollback to the last working commit.
 
 // Login to github and create a new remote repository.
 git remote add origin https://github.com/tawanda-maseva/getting_started_again.git
-git push -u origin master		# To push to remote repository. Password is the token
+git push -u origin main		# To push to remote repository. Password is the token
