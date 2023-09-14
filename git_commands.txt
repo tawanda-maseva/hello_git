@@ -1,0 +1,18 @@
+// Start by creating file called .gitignore. Add the line "__pycache__/" do ignore all garbage python files
+
+git config --global user.name "username" 					# Set username
+git config --global user.email "username@example.com"		# Setup
+
+git init		# Initialize a rep of the current folder
+git status		# Check commit and track status of files
+git add .		# Get git to start tracking all the files in the repository
+git log
+
+
+git commit -m "Started project."		# First commit. -m is for message
+git commit -am "Bug fixes."		# adds all modified files to the current commit.
+git checkout . 					# rollback to the last working commit.
+
+// Login to github and create a new remote repository.
+git remote add origin https://github.com/tawanda-maseva/getting_started_again.git
+git push -u origin master		# To push to remote repository
